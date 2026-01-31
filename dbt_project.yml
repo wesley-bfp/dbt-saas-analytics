@@ -1,0 +1,17 @@
+
+name: 'saas_analytics'
+version: '1.0.0'
+config-version: 2
+
+profile: 'saas_profile'
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+
+models:
+  saas_analytics:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

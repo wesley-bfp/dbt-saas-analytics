@@ -4,11 +4,11 @@
 This project demonstrates modern data modeling practices using **dbt (Data Build Tool)**. It transforms raw SaaS subscription data into high-level business metrics (MRR, Customer Count) following the **Medallion Architecture**.
 
 ## 🛠️ Tech Stack
-* [cite_start]**Transformation:** dbt-core 
+* **Transformation:** dbt-core 
 * **Database/Engine:** DuckDB (In-process OLAP)
-* [cite_start]**Language:** SQL (Advanced Modeling) [cite: 8]
-* [cite_start]**Governance:** Automated testing and documentation [cite: 39]
-
+* **Language:** SQL (Advanced Modeling) 
+* **Governance:** Automated testing and documentation
+  
 ## 🏗️ Project Structure
 * **Seeds:** Raw CSV data ingested into the warehouse.
 * **Staging Layer:** Data cleaning, renaming, and type casting (Views).
